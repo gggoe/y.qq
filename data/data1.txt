@@ -1,0 +1,18 @@
+[
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000002VQFaK10qcMv.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/002VQFaK10qcMv.html","url2":"javascript:;","title":"歌手 第十三期","content":"歌手"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000002AYtB5468qEQ.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/002AYtB5468qEQ.html","url2":"javascript:;","title":"BANG THE WORLD","content":"张靓颖"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000004cPVkg2UXted.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/004cPVkg2UXted.html","url2":"javascript:;","title":"金曲捞 第一期","content":"金曲捞"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000002xoA3I4WQQ5s.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/002xoA3I4WQQ5s.html","url2":"javascript:;","title":"厉害了!我的歌 第12期","content":"厉害了!我的歌"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000004Oma7t44ehGn.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/004Oma7t44ehGn.html","url2":"javascript:;","title":"从心出发","content":"庄心妍"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000002hwSBZ0XEzdH.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/002hwSBZ0XEzdH.html","url2":"javascript:;","title":"实名制","content":"好妹妹乐队"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000000BtcJa12QqKF.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/000BtcJa12QqKF.html","url2":"javascript:;","title":"誓如当初","content":"许鹤缤"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000001qHmKU29WX7K.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/001qHmKU29WX7K.html","url2":"javascript:;","title":"辛德瑞拉","content":"刘心"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000003kWEK711ueyF.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/003kWEK711ueyF.html","url2":"javascript:;","title":"蓝孩子","content":"苏运莹"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M0000043frnu20YwzR.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/0043frnu20YwzR.html","url2":"javascript:;","title":"终极信仰","content":"印子月"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000003peVPZ1OgjcJ.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/003peVPZ1OgjcJ.html","url2":"javascript:;","title":"失落的源","content":"谭维维"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000002VIYYx2PgZfc.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/002VIYYx2PgZfc.html","url2":"javascript:;","title":"刚好遇到你","content":"李玉刚"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000004XWHNe3cc1Um.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/004XWHNe3cc1Um.html","url2":"javascript:;","title":"拿不走的记忆","content":"迪玛希Dimash"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000001O2oAa0R9erS.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/001O2oAa0R9erS.html","url2":"javascript:;","title":"给陌生女孩的歌","content":"何洁"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M0000039KN8A01Bg3i.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/0039KN8A01Bg3i.html","url2":"javascript:;","title":"珍珠","content":"吉克携逸"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M0000004hMKB1j2MWa.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/0004hMKB1j2MWa.html","url2":"javascript:;","title":"天行路","content":"柳岩"}
+]

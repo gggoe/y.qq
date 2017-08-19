@@ -1,0 +1,18 @@
+[
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000001rK5Ua2DPys5.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/001rK5Ua2DPys5.html# ","url2":"javascript:;","title":"One Step Closer","content":"周柏豪"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000000UxT9J3t8PPB.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/000UxT9J3t8PPB.html#","url2":"javascript:;","title":"空姐","content":"李幸倪"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M0000018AuOU01XCBU.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/0018AuOU01XCBU.html#","url2":"javascript:;","title":"同在","content":"宋念宇"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000003JUB4x4Eebkp.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/003JUB4x4Eebkp.html#","url2":"javascript:;","title":"我挺你","content":"Under Lover"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M0000001XmD20k5a9G.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/0001XmD20k5a9G.html#","url2":"javascript:;","title":"慢慢习惯","content":"刘德华"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000001rK5Ua2DPys5.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/001rK5Ua2DPys5.html# ","url2":"javascript:;","title":"One Step Closer","content":"周柏豪"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000000UxT9J3t8PPB.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/000UxT9J3t8PPB.html#","url2":"javascript:;","title":"空姐","content":"李幸倪"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M0000018AuOU01XCBU.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/0018AuOU01XCBU.html#","url2":"javascript:;","title":"同在","content":"宋念宇"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000003JUB4x4Eebkp.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/003JUB4x4Eebkp.html#","url2":"javascript:;","title":"我挺你","content":"Under Lover"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M0000018AuOU01XCBU.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/0018AuOU01XCBU.html#","url2":"javascript:;","title":"同在","content":"宋念宇"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000003JUB4x4Eebkp.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/003JUB4x4Eebkp.html#","url2":"javascript:;","title":"我挺你","content":"Under Lover"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M0000001XmD20k5a9G.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/0001XmD20k5a9G.html#","url2":"javascript:;","title":"慢慢习惯","content":"刘德华"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M000001rK5Ua2DPys5.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/001rK5Ua2DPys5.html# ","url2":"javascript:;","title":"One Step Closer","content":"周柏豪"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M0000001XmD20k5a9G.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/0001XmD20k5a9G.html#","url2":"javascript:;","title":"慢慢习惯","content":"刘德华"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M0000018AuOU01XCBU.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/0018AuOU01XCBU.html#","url2":"javascript:;","title":"同在","content":"宋念宇"},
+  {"img":"https://y.gtimg.cn/music/photo_new/T002R300x300M0000001XmD20k5a9G.jpg?max_age=2592000","url1":"https://y.qq.com/n/yqq/album/0001XmD20k5a9G.html#","url2":"javascript:;","title":"慢慢习惯","content":"刘德华"}
+]

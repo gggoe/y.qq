@@ -1,0 +1,444 @@
+<!--
+                                                           .
+                                     .;$$
+                        ....:;$$$$$$$   $
+                    ..;;;$$$            $:..
+                 .:$$$$$$               $$$$$:.
+               .;$$$$$$$3             $$$$$$$$$;.
+             .;$$$$$$$$$$      $$$$$$$;$$$$$$$$$$;.
+            ;$$$$$$$$$$$$$    $$;$$$$$$$$$$$$$$$$$$;
+           ;$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$$$$$$$$$
+          $$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$$$$$$$$$
+         :$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$$$$$$$$;
+        .$$$$$$$$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$.
+        :$$$$$$$$$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$:
+        ;$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$$;
+        ;$$$$$$$$$$$$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$;
+        :$$$$$$$$$$$$$$$$$$             $$$$$$$$$$$$$$$:
+        .$$$$$$$$$$$$$$$                 $$$$$$$$$$$$$$.
+         ;$$$$$$$$$$$$$                   $$$$$$$$$$$$;
+          $$$$$$$$$$$$                     $$$$$$$$$$$
+           $$$$$$$$$$                      $$$$$$$$$$
+            ;$$$$$$$$                     $$$$$$$$$;
+             .$$$$$$$$                   $$$$$$$$$.
+               .$$$$$$$$               $$$$$$$$$:
+                 .;$$$$$$$$          $$$$$$$$;.
+                    .:$$$$$$$$$$$$$$$$$$$$:.
+                        ...:;;;;;;;;:...
+
+         仿QQ音乐
+                         zxq制作
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://y.qq.com/favicon.ico"/>
+    <title>QQ音乐 - 中国最新最全免费正版高品质音乐平台！</title>
+    <link rel="stylesheet" href="css/style.css">
+    <base target="-blank">
+
+</head>
+<body>
+
+<!--标题栏//////////////////////////////////////////////////////////////////////////////-->
+<!--header.header_title.main>(div.header_logo>a>img)+(div.header_nav)+(div.header_subnav)+(div.header_search)+(div.header_login)-->
+<header class="header_title main">
+    <div class="header_logo">
+        <a href="index.html"><img src="images/logo.png"></a>
+    </div>
+    <ul class="header_nav">
+        <li class="selected"><a href="index.html">音乐馆</a></li>
+        <li><a href="https://y.qq.com/portal/profile.html">我的音乐</a></li>
+        <li><a href="https://y.qq.com/download/index.html">下载客户端</a></li>
+        <li><a href="https://y.qq.com/vipportal/">VIP</a></li>
+    </ul>
+    <div class="header_search">
+        <input type="text" placeholder="BANG THE WORLD 张靓颖">
+        <button><i></i></button>
+        <ul class="hidden">
+            <li><i>1</i>BANG THE WORLD<span>55万</span></li>
+            <li><i>2</i>从心出发<span>37万</span></li>
+            <li><i>3</i>Freedom<span>24万</span></li>
+            <li><i>4</i>告白气球<span>14万</span></li>
+            <li><i>5</i>动物世界<span>2万</span></li>
+            <li>搜索历史<span id="deleteRecord"></span></li>
+        </ul>
+    </div>
+    <div class="header_opt clearFix">
+        <div class="login"><a href="javascript:;">登录</a></div>
+        <div class="num1"><a href="javascript:;">开通绿钻豪华版</a></div>
+        <div class="num2"><a href="javascript:;">开通付费包</a></div>
+    </div>
+    <ul class="header_subnav">
+        <li class="change-font" id="homepage">首页</li>
+        <li>歌手</li>
+        <li>专辑</li>
+        <li>排行榜</li>
+        <li>分类歌单</li>
+        <li id="mv">MV</li>
+    </ul>
+    <div class="loginPopup">
+
+        <div class="loginPopup_top"><a href="javascript:;">QQ登录</a><i id="closePopup">×</i></div>
+
+        <div class="loginPopup_con scanCode">
+            <h3>快速安全登录</h3>
+            <p>请使用<a href="javascript:;">QQ手机版</a>扫描二维码，<br>安全登录，防止盗号。</p>
+            <div class="QrCode"><img src="images/下载.png" id="scanCode"><a href="javascript:;" id="invalid">二维码失效<br>请点击刷新</a><img
+                    src="images/扫码.png" id="scan">
+            </div>
+        </div>
+
+        <div class="loginPopup_con switch">
+            <h3>帐号密码登录</h3>
+            <p>推荐使用<a href="">快速安全登录</a>，防止盗号。</p>
+            <div class="input"><input type="text" placeholder="支持QQ号/邮箱/手机号"><i></i></div>
+            <div class="input"><input type="text" placeholder="密码"><i></i></div>
+            <a class="login" href="javascript:;">登录</a>
+        </div>
+
+        <div class="loginPopup_bom">
+            <div class="loginPopup_bom_left">
+                <a href="javascript:;" class="button" id="autoLogin">√</a>
+                <a href="javascript:;">下次自动登录</a>
+            </div>
+            <div class="loginPopup_bom_right">
+                <a href="javascript:;" class="separate">账号密码登录</a>
+                <a class="separate" href="https://ssl.ptlogin2.qq.com/j_newreg_url">注册新账号</a>
+                <a href="http://support.qq.com/write.shtml?guest=1&fid=713&SSTAG=hailunna">意见反馈</a>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+
+<div class="filter"></div>
+
+<div id="mvPage">
+    <div class="video">
+        <div id="mod_player" class="main"></div><!--<!-- 这个div是播放器准备输出的位置 -->
+    </div>
+    <div class="bom main">
+        <h4>相关MV</h4>
+        <div>
+            <div class="mv_hidden">
+                <ul class="mv_list">
+                    <!--<li>-->
+                    <!--<div class="show">-->
+                    <!--<a href=""><img src="images/mv1.jpg"></a>-->
+                    <!--<a href="javascript:;" class="play"></a>-->
+                    <!--</div>-->
+                    <!--<p><a href="javascript:;">F Your Love</a></p>-->
+                    <!--<span class="turn"><a href="javascript:;">Darin(达林)</a></span>-->
+                    <!--<i></i><span class="num">51.7万</span><span class="date">2016-04-08</span>-->
+                    <!--</li>-->
+                </ul>
+            </div>
+            <div class="mv_left"></div>
+            <div class="mv_right"></div>
+        </div>
+        <h4>MV简介</h4>
+        <div class="synopsis">
+            <span class="singer">Darin(达林)</span><span class="time">发行时间：2017-04-12</span>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="content">
+    <!--新歌首发////////////////////////////////////////////////////////////////////////////-->
+    <div class="content1">
+        <div class="change">
+            <div class="son1 son">
+            </div>
+            <div class="son2 son">
+            </div>
+        </div>
+
+        <div class="content1-left switch"><i></i></div>
+        <div class="content1-right switch"><i></i></div>
+
+        <div class="main">
+            <h3><i class="line line-left"></i><i class="title"></i><i class="line line-right"></i></h3>
+            <div class="top" id="ification">
+                <a href="javascript:;" class="classify">内地</a>
+                <a href="javascript:;" class="classify">港台</a>
+                <a href="javascript:;" class="classify">欧美</a>
+                <a href="javascript:;" class="classify">韩国</a>
+                <a href="javascript:;" class="classify">日本</a>
+                <a href="https://y.qq.com/portal/album_lib.html#" class="whole classify">全部 ></a>
+            </div>
+            <ul class="container" id="case1">
+                <!--<li>-->
+                <!--<div class="top"><a href="javascript:;">-->
+                <!--<img src="images/banner2.jpg">-->
+                <!--</a><a href="javascript" class="play"></a></div>-->
+                <!--<div class="bom">-->
+                <!--<p><a href="javascript:;">旅程</a><i class="new"></i></p>-->
+                <!--<span><a href="javascript:;">魏晨</a></span>-->
+                <!--</div>-->
+                <!--</li>-->
+            </ul>
+            <ul class="btn">
+                <li class="selected"><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
+            </ul>
+        </div>
+    </div>
+    <!--精彩推荐////////////////////////////////////////////////////////////////////////////-->
+    <div class="content2">
+        <div class="change">
+            <div class="son1 son">
+            </div>
+            <div class="son2 son">
+            </div>
+        </div>
+
+        <div class="content1-left switch"><i></i></div>
+        <div class="content1-right switch"><i></i></div>
+
+        <div class="main">
+            <h3><i class="line line-left"></i><i class="title"></i><i class="line line-right"></i></h3>
+            <div class="hid">
+                <ul class="container">
+                    <!--<li>-->
+                    <!--<a href="javascript:;"><img src="images/banner2.jpg"></a>-->
+                    <!--</li>-->
+                </ul>
+            </div>
+
+            <ul class="btn">
+                <li class="selected"><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
+            </ul>
+        </div>
+    </div>
+    <!--排行榜////////////////////////////////////////////////////////////////////////////-->
+    <div class="content3">
+        <div class="main">
+            <h3><i class="line line-left"></i><i class="title"></i><i class="line line-right"></i></h3>
+            <div class="top">
+                <a href="https://y.qq.com/n/yqq/toplist/4.html#" class="whole classify">全部 ></a>
+            </div>
+
+            <ul class="container">
+                <li>
+                    <p class="top"><a href="javascript:;"></a></p>
+                    <h4><a href="javascript:;">流行指数</a></h4>
+                    <i class="con_line"></i>
+                    <i class="play"></i>
+                    <div class="bom">
+                        <p><i>1</i><a href="javascript:;">凉凉 (Live)</a><a href="javascript:;">张碧晨/杨宗纬</a></p>
+                        <p><i>2</i><a href="javascript:;">王子公主 (Live)</a><a href="javascript:;">薛之谦</a></p>
+                        <p><i>3</i><a href="javascript:;">为了遇见你 (Live)</a><a href="javascript:;">薛之谦/李好</a></p>
+                        <p><i>4</i><a href="javascript:;">寻</a><a href="javascript:;">华晨宇</a></p>
+                    </div>
+                </li>
+                <li>
+                    <p class="top"><a href="javascript:;"></a></p>
+                    <h4><a href="javascript:;">流行指数</a></h4>
+                    <i class="con_line"></i>
+                    <i class="play"></i>
+                    <div class="bom">
+                        <p><i>1</i><a href="javascript:;">凉凉 (Live)</a><a href="javascript:;">张碧晨/杨宗纬</a></p>
+                        <p><i>2</i><a href="javascript:;">王子公主 (Live)</a><a href="javascript:;">薛之谦</a></p>
+                        <p><i>3</i><a href="javascript:;">为了遇见你 (Live)</a><a href="javascript:;">薛之谦/李好</a></p>
+                        <p><i>4</i><a href="javascript:;">寻</a><a href="javascript:;">华晨宇</a></p>
+                    </div>
+                </li>
+                <li>
+                    <p class="top"><a href="javascript:;"></a></p>
+                    <h4><a href="javascript:;">流行指数</a></h4>
+                    <i class="con_line"></i>
+                    <i class="play"></i>
+                    <div class="bom">
+                        <p><i>1</i><a href="javascript:;">凉凉 (Live)</a><a href="javascript:;">张碧晨/杨宗纬</a></p>
+                        <p><i>2</i><a href="javascript:;">王子公主 (Live)</a><a href="javascript:;">薛之谦</a></p>
+                        <p><i>3</i><a href="javascript:;">为了遇见你 (Live)</a><a href="javascript:;">薛之谦/李好</a></p>
+                        <p><i>4</i><a href="javascript:;">寻</a><a href="javascript:;">华晨宇</a></p>
+                    </div>
+                </li>
+                <li>
+                    <p class="top"><a href="javascript:;"></a></p>
+                    <h4><a href="javascript:;">流行指数</a></h4>
+                    <i class="con_line"></i>
+                    <i class="play"></i>
+                    <div class="bom">
+                        <p><i>1</i><a href="javascript:;">凉凉 (Live)</a><a href="javascript:;">张碧晨/杨宗纬</a></p>
+                        <p><i>2</i><a href="javascript:;">王子公主 (Live)</a><a href="javascript:;">薛之谦</a></p>
+                        <p><i>3</i><a href="javascript:;">为了遇见你 (Live)</a><a href="javascript:;">薛之谦/李好</a></p>
+                        <p><i>4</i><a href="javascript:;">寻</a><a href="javascript:;">华晨宇</a></p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!--热门歌单////////////////////////////////////////////////////////////////////////////-->
+    <div class="content4">
+
+        <div class="change">
+            <div class="son1 son">
+            </div>
+            <div class="son2 son">
+            </div>
+        </div>
+
+        <div class="content1-left switch"><i></i></div>
+        <div class="content1-right switch"><i></i></div>
+
+        <div class="main">
+            <h3><i class="line line-left"></i><i class="title"></i><i class="line line-right"></i></h3>
+
+            <ul class="container" id="case2">
+
+            </ul>
+            <ul class="btn">
+                <li class="selected"><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
+            </ul>
+        </div>
+    </div>
+    <!--MV首播////////////////////////////////////////////////////////////////////////////-->
+    <div class="content5">
+        <div class="main">
+            <h3><i class="line line-left"></i><i class="title"></i><i class="line line-right"></i></h3>
+            <div class="top mvOpt">
+                <a href="javascript:;" class="classify">内地</a>
+                <a href="javascript:;" class="classify">港台</a>
+                <a href="javascript:;" class="classify">欧美</a>
+                <a href="javascript:;" class="classify">韩国</a>
+                <a href="javascript:;" class="classify">日本</a>
+                <a href="https://y.qq.com/portal/album_lib.html#" class="whole classify">全部 ></a>
+            </div>
+            <ul class="mv_list">
+                <!--<li>-->
+                <!--<div class="show">-->
+                <!--<a href=""><img src="images/mv1.jpg"></a>-->
+                <!--<a href="javascript:;" class="play"></a>-->
+                <!--</div>-->
+                <!--<p><a href="javascript:;">F Your Love</a></p>-->
+                <!--<span class="turn"><a href="javascript:;">Darin(达林)</a></span>-->
+                <!--<i></i><span class="num">51.7万</span>-->
+                <!--</li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--底部-->
+<footer>
+    <ul class="foot_top main">
+        <li class="left">
+            <p>下载QQ音乐客户端</p>
+            <a href="https://dldir1.qq.com/music/clntupate/QQMusicSetup.exe">
+                <i></i>
+                PC版
+            </a>
+            <a href="https://dldir1.qq.com/music/clntupate/mac/QQMusic4.2.3Build02.dmg">
+                <i></i>
+                Mac版
+            </a>
+            <a href="http://dldir1.qq.com/music/clntupate/QQMusic72282.apk">
+                <i></i>
+                Android版
+            </a>
+            <a href="https://dldir1.qq.com/music/clntupate/ios/QQMusicIPhone5.8.1build04_yqq.ipa">
+                <i></i>
+                iPhone版
+            </a>
+        </li>
+
+        <li class="cen">
+            <p>特色产品</p>
+            <div class="top">
+                <a href="https://dldir1.qq.com/music/clntupate/QQMusicSetup.exe">
+                    <i></i>
+                    全民K歌
+                </a>
+                <a href="https://dldir1.qq.com/music/clntupate/mac/QQMusic4.2.3Build02.dmg">
+                    <i></i>
+                    Super Sound
+                </a>
+                <a href="http://dldir1.qq.com/music/clntupate/QQMusic72282.apk">
+                    <i></i>
+                    QPlay
+                </a>
+            </div>
+            <div class="bom">
+                <a href="http://y.qq.com/cp/homepage.html#/home?from=yqq">QQ音乐原创音乐平台</a>
+                <a href="https://y.qq.com/portal/mv/mv_upload.html">上传视频</a>
+                <br>
+                <a href="http://y.qq.com/y/static/down/car_introduce.html">车载互联</a>
+                <a href="http://y.qq.com/yanchu/?pgv_ref=qqmusic.y.topmenu">QQ演出</a>
+            </div>
+        </li>
+
+        <li class="right">
+            <p>合作链接</p>
+            <div class="top">
+                <a href="https://y.qq.com/portal/company_detail.html?id=297">CJ E&M</a><a href="http://v.qq.com/">腾讯视频</a><a
+                    href="http://z.qzone.com/">手机QQ空间</a><br><a href="http://im.qq.com/">最新版QQ</a><a
+                    href="http://e.qq.com/index.shtml">腾讯社交广告</a><a
+                    href="http://guanjia.qq.com/">电脑管家</a><br><a href="http://browser.qq.com/">QQ浏览器</a><a
+                    href="http://huabao.qzone.qq.com/">画报</a><a
+                    href="http://act.qzone.qq.com/">黄钻活动</a><br><a href="http://xing.qq.com/">星钻</a><a
+                    href="http://www.weiyun.com/">腾讯微云</a><a href="javascript:;" id="more">更多</a>
+            </div>
+            <div class="bom" hidden id="hiddenLinks">
+                <a href="http://fm.qq.com/">企鹅FM</a><a href="https://www.qcloud.com/">腾讯云</a><a href="http://buluo.qq.com/">兴趣部落</a><a
+                    href="https://ke.qq.com/?from=100">腾讯课堂</a><a href="http://yunsou.qq.com/">腾讯云搜</a><a href="http://bbs.qcloud.com/">腾讯云论坛</a><a
+                    href="http://www.znds.com/">智能电视网</a><a href="http://www.dangbei.com/">当贝市场</a>
+            </div>
+
+        </li>
+
+    </ul>
+
+    <div class="foot_bom main"><a href="https://www.tencent.com/zh-cn/index.html">关于腾讯</a> |<a
+            href="https://www.tencent.com/en-us/index.html">About Tencent</a> |
+        <a href="">服务条款</a> | <a href="http://y.qq.com/y/static/tips/service_tips.html">用户服务协议</a> | <a
+                href="http://www.qq.com/privacy.htm">隐私政策</a> |
+        <a href="http://www.tencentmind.com/">广告服务</a> | <a href="http://hr.tencent.com/">腾讯招聘</a> | <a
+                href="http://kf.qq.com/">客服中心</a> |
+        <a href="http://www.qq.com/map/">网站导航</a><br>Copyright © 1998 - 2017 Tencent. <a
+                href="https://www.tencent.com/en-us/statement.html">All Rights Reserved.</a><br>腾讯公司 版权所有
+        <a href="https://www.tencent.com/zh-cn/statement.html?/law/copyright.htm">腾讯网络文化经营许可证</a></div>
+</footer>
+<!--侧边栏-->
+<aside>
+    <a href="javascript:;" class="top" id="scrollIcon"></a>
+    <a href="https://support.qq.com/discuss/602_1.shtml" class="cen"><span>意见<br>反馈</span></a>
+    <a href="https://y.qq.com/portal/player.html" class="bom"><span>播放器</span></a>
+</aside>
+
+<script src="js/utils.js"></script>
+<script src="js/index.js"></script>
+<script language="javascript" src="js/tvp.player.js" charset="utf-8"></script>
+<script language="javascript">
+    var video = new tvp.VideoInfo();
+    //向视频对象传入视频vid
+    video.setVid("x0023dtt1b6");
+    var player = new tvp.Player(1200, 752);
+    //flashvarskey   1246行设置详细参数
+    //设置播放器初始化时加载的视频
+    player.setCurVideo(video);
+    //输出播放器
+    player.write("mod_player");
+</script>
+</body>
+</html>
+<!--https://y.gtimg.cn/mediastyle/global/img/mv_300.png?max_age=31536000-->

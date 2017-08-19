@@ -1,0 +1,10 @@
+[
+  {"img":"https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/91322.jpg","url1":"http://y.qq.com/msa/luhan3imagination/index_new.html"},
+  {"img":"https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/91084.jpg","url1":"https://y.qq.com/msa/204/1_2876.html"},
+  {"img":"https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/90730.jpg","url1":"https://y.qq.com/msa/227/1_2860.html"},
+  {"img":"https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/90767.jpg","url1":"https://y.qq.com/msa/200/1_2865.html"},
+  {"img":"https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/91249.jpg","url1":"http://y.qq.com/live/zhibo/0420bang_pc.html"},
+  {"img":"https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/89959.jpg","url1":"https://y.qq.com/msa/206/1_2845.html"},
+  {"img":"https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/91289.jpg","url1":"https://y.qq.com/n/yqq/mv/c/hhhin3a70ocjkul.html"},
+  {"img":"https://y.gtimg.cn/music/common/upload/t_focus_info_iphone/83606.jpg","url1":"http://y.qq.com/vip/hh1vip1/index.html"}
+]

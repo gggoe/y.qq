@@ -1,0 +1,10 @@
+[
+  {"img":"images/mv1.jpg","url1":"https://y.qq.com/n/yqq/mv/v/v0020rq7u84.html#stat=y_new.mv.othermv.play", "url2":"https://y.qq.com/n/yqq/singer/003HcPBe487z7O.html#","hot":"51.7万","time":"2016-04-08","title":"F Your Love","content":"Darin(达林)"},
+  {"img":"images/mv2.jpg","url1":"https://y.qq.com/n/yqq/mv/v/x00168l2ova.html#stat=y_new.mv.othermv.play", "url2":"https://y.qq.com/n/yqq/singer/003HcPBe487z7O.html#","hot":"46.6万","time":"2012-04-28","title":"Can't Stop Love","content":"Darin(达林)"},
+  {"img":"images/mv5.jpg","url1":"https://y.qq.com/n/yqq/mv/v/9xj0e44HU8J.html#stat=y_new.mv.othermv.play", "url2":"https://y.qq.com/n/yqq/singer/003HcPBe487z7O.html#","hot":"7.6万","time":"2012-03-27","title":"Everything But The Girl","content":"Darin(达林)"},
+  {"img":"images/mv8.jpg","url1":"https://y.qq.com/n/yqq/mv/v/t001255m662.html#stat=y_new.mv.othermv.play", "url2":"https://y.qq.com/n/yqq/singer/003HcPBe487z7O.html#","hot":"3.5万","time":"2013-08-19","title":"Lovekiller","content":"Darin(达林)"},
+  {"img":"images/mv14.jpg","url1":"https://y.qq.com/n/yqq/mv/v/b0021wi7747.html#stat=y_new.mv.othermv.play","url2":"https://y.qq.com/n/yqq/singer/003HcPBe487z7O.html#","hot":"1.1万", "time":"2012-03-27","title":"Why Does It Rain","content":"Darin(达林)"},
+  {"img":"images/mv16.jpg","url1":"https://y.qq.com/n/yqq/mv/v/t0014g1kogr.html#stat=y_new.mv.othermv.play","url2":"https://y.qq.com/n/yqq/singer/003HcPBe487z7O.html#","hot":"7669", "time":"2014-04-22","title":"Mamma Mia (feat. Prophet)","content":"Darin(达林)"},
+  {"img":"images/mv19.jpg","url1":"https://y.qq.com/n/yqq/mv/v/v0011nuojtd.html#stat=y_new.mv.othermv.play","url2":"https://y.qq.com/n/yqq/singer/003HcPBe487z7O.html#","hot":"5027", "time":"2012-10-25","title":"Money For Nothing","content":"Darin(达林)"},
+  {"img":"images/mv20.jpg","url1":"https://y.qq.com/n/yqq/mv/v/9aTWOjlDDQO.html#stat=y_new.mv.othermv.play","url2":"https://y.qq.com/n/yqq/singer/003HcPBe487z7O.html#","hot":"4175", "time":"2012-03-27","title":"Perfect","content":"Darin(达林)"}
+]
